@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEM=="usb", DRIVER=="cdc_acm", ATTR{bInterfaceClass}=="02", ATTRS{idVendor}=="1a86", RUN+="/usr/bin/sh -c 'echo %k > /sys/bus/usb/drivers/cdc_acm/unbind; echo %k > /sys/bus/usb/drivers/usb_ch343/bind'"
