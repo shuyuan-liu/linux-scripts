@@ -1,1 +1,1 @@
-This repository contains autocomplete scripts I've written for the [fish shell](https://fishshell.com/). These complement the scripts shipped with the fish package on Arch Linux.
+This repository contains scripts I've written for my own Linux laptop. These currently include [fish](https://fishshell.com/) completions and udev rules for various devices I use.
